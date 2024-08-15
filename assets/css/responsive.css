@@ -1,0 +1,67 @@
+/**
+ * Extra Extra Large Devices (Large Desktops)
+ * */
+@media (max-width: 1440px){
+   
+}
+
+/**
+ * Extra Large Devices (Desktops)
+ * */
+@media (max-width: 1200px){
+    
+}   
+
+/**
+ * Large Devices (Laptops)
+ * */
+@media (max-width: 1024px){
+    
+}
+
+/**
+ * Medium Devices (Tablets)
+ * */
+@media (max-width: 981px){
+   
+}
+
+/**
+ * Small Devices (Phones)
+ * */
+@media (max-width: 768px) {
+    /**
+     * Change color of the website background 
+     **/
+    body, html{
+        background-color: #fff;
+        color: #000;
+    }
+}  
+
+/**
+ * Extra Small Devices (Phones)
+ * */
+@media (max-width: 600px) {
+
+    /**
+     * Change size of title
+     * */
+    h1.website-title{
+        font-size: 25px;
+    }
+
+    /**
+     * Change size of the shapes/icons
+     * */
+    .shapebox-items .box-color{
+        height: 50px;
+        width: 50px;
+    }
+
+    .shapebox-items .box-colorname{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+

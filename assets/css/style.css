@@ -1,0 +1,134 @@
+
+/**
+ * Default Style
+ * */
+body, html{
+	font-family: "Open Sans", sans-serif;
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+}
+
+/*
+ * Spacing for the class main 
+ */
+.main{
+	margin: 0 15px 0 15px;
+}
+
+/**
+ * Website Title Style
+ * */
+h1.website-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/**
+ * Shapebox/Icon Styles
+ * */
+.shapebox-container{
+	display: flex;
+    gap: 0 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shapebox-items{
+	text-align: center;
+	cursor: pointer;
+    position: relative;
+    top: 0;
+/*    transition: all 0.3s ease-in;*/
+}
+
+.shapebox-items .box-colorname{
+	visibility: hidden;
+	transition: all 0.3s ease-in;
+	opacity: 0;
+}
+
+.shapebox-items:hover .box-colorname{
+	visibility: visible;
+	opacity: 1;
+}
+
+.shapebox-items .box-color{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	transition: all 0.3s ease-in;
+	opacity: 1;
+}
+
+.active .box-color{
+	border-radius: 0 !important;
+}
+
+.shapebox-container .active.shapebox-items {
+	/*top: 120px;
+	margin-bottom: 180px;*/
+}
+
+.shapebox-container .active.shapebox-items{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+/**
+ * Background Color Of Icon
+ * */
+.shapebox-items.bc-red .box-color{
+	background-color: red;
+}
+
+.shapebox-items.bc-green .box-color{
+	background-color: green;
+}
+
+.shapebox-items.bc-blue .box-color{
+	background-color: blue;
+}
+
+.shapebox-items.bc-orange .box-color{
+	background-color: orange;
+}
+
+.shapebox-items.bc-yellow .box-color{
+	background-color: yellow;
+}
+
+/**
+ * Text Color Of Icon
+ * */
+ .shapebox-items.bc-red .box-colorname{
+ 	color: red;
+ }
+
+ .shapebox-items.bc-green .box-colorname{
+ 	color: green;
+ }
+
+ .shapebox-items.bc-blue .box-colorname{
+ 	color: blue;
+ }
+
+ .shapebox-items.bc-orange .box-colorname{
+ 	color: orange;
+ }
+
+ .shapebox-items.bc-yellow .box-colorname{
+ 	color: yellow;
+ }
+
+
+/**
+ * Made With Text Style
+ * */
+.made-with p{
+    text-align: center;
+    font-style: italic;
+    color: #a9a9a9;
+    margin-top: 100px;
+}
